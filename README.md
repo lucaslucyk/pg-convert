@@ -61,4 +61,4 @@ En el settings, se puede modificar el valor del nombre del archivo a procesar co
 
 4. El archivo generado ya puede ser abierto desde Excel o cualquier editor de texto.
 
-*En caos de usar Windows, considerar no ubicar los scripts dentro del disco `C:\` directamente, o en tal caso, considerar ejecutar con permisos de Adminitrador.*
+*En caso de usar Windows, considerar no ubicar los scripts dentro del disco `C:\` directamente, o en tal caso, ejecutar con permisos de Adminitrador.*
