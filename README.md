@@ -34,11 +34,31 @@ En el settings, se puede modificar el valor del nombre del archivo a procesar co
 ├── pg-convert/                 
 │   ├── convert_ausentismo/    
 │   │   ├── Pending/
-│   │   │   └── ausentismo_nt.csv    # Por defecto           
+│   │   │   └── ausentismo_nt.csv   # Por defecto           
 │   │   └── ...
 │   └── convert_comedor/
 │       ├── Pending/
-│       │   └── comedor_nt.csv    # Por defecto    
+│       │   └── comedor_nt.csv      # Por defecto    
 │       └── ...
 └── ...
 ```
+
+3. Luego de ubicar el archivo en el directorio correspondiente, ejecutar el archivo `convert.py` y buscar el archivo generado dentro de la carpeta `Done`.
+
+```
+├── ...
+├── pg-convert/                 
+│   ├── convert_ausentismo/    
+│   │   ├── Done/
+│   │   │   └── ausentismo.csv   # Por defecto           
+│   │   └── ...
+│   └── convert_comedor/
+│       ├── Done/
+│       │   └── comedor.csv      # Por defecto    
+│       └── ...
+└── ...
+```
+
+4. El archivo generado ya puede ser abierto desde Excel o cualquier editor de texto.
+
+*En caos de usar Windows, considerar no ubicar los scripts dentro del disco `C:\` directamente, o en tal caso, considerar ejecutar con permisos de Adminitrador.*
