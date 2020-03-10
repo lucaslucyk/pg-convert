@@ -17,7 +17,7 @@ Estos scripts son utilizados para convertir los reportes de ausentismo y comedor
 │	│	├── Pending/		# Incluir el file a convertir
 │	│	├── Done/		# Archivos generados con scripts
 │	│	├── settings.py 	# Config de nombres de E/S
-│   └── convert_comedor/    	# Procesamiento de comedor
+│   └── convert_comedor/    		# Procesamiento de comedor
 │		├── Pending/
 │		├── Done/
 │		├── settings.py
