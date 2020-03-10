@@ -26,3 +26,19 @@ Estos scripts son utilizados para convertir los reportes de ausentismo y comedor
 └── ...
 ```
 
+En el settings, se puede modificar el valor del nombre del archivo a procesar con la variable `FILE_TO_PROCESS` y el nombre del archivo que se generará con la variable `FILE_OUT`.
+
+2. Una vez verificado los nombres de archivos, ubicar el archivo dentro de la carpeta `Pending` del directorio correspondiente (ausentismo o comedor). 
+```
+├── ...
+├── pg-convert/                 
+│   ├── convert_ausentismo/    
+│   │   ├── Pending/
+│   │   │   └── ausentismo_nt.csv    # Por defecto           
+│   │   └── ...
+│   └── convert_comedor/
+│       ├── Pending/
+│       │   └── comedor_nt.csv    # Por defecto    
+│       └── ...
+└── ...
+```
