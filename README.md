@@ -3,10 +3,11 @@ Estos scripts son utilizados para convertir los reportes de ausentismo y comedor
 
 ## Instalar Python3 ##
 1. Descargar la versión más reciente del intérprete de Python desde el siguiente [Enlace](https://www.python.org/ "Python Downloads").
-![alt text](statics/dl_01.png?raw=true "Download")
+![Download 1](statics/dl_01.png?raw=true "Download")
+![Download 2](statics/dl_02.png?raw=true "Download")
 
 2. Instalar agregando al PATH en el proceso de instalación.
-
+![Instalacion path](statics/in_01.png?raw=true "Instalación")
 
 ## Configurar nombres de archivos ##
 1. Chequear o modificar el nombre del archivo a procesar en el archivo settings.py dentro de la carpeta correspondiente
