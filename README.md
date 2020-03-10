@@ -1,6 +1,12 @@
 # Conversión de reportes
 Estos scripts son utilizados para convertir los reportes de ausentismo y comedor de netTime al formato necesario para liquidación.
 
+## Descargar y descomprimir ##
+1. Descargar `ZIP` del repositorio y descomprimir en el directorio deseado. 
+![Download 1](statics/dl_repo.png?raw=true "Download")
+
+*Se recomienda no descomprimir en el disco `C:\` directamente.*
+
 ## Instalar Python3 ##
 1. Descargar la versión más reciente del intérprete de Python desde el siguiente [Enlace](https://www.python.org/ "Python Downloads").
 ![Download 1](statics/dl_01.png?raw=true "Download")
