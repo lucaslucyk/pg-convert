@@ -1,8 +1,8 @@
 # Conversión de reportes
 Estos scripts son utilizados para convertir los reportes de ausentismo y comedor de netTime al formato necesario para liquidación.
 
-## Instalar Python >= 3.8 ##
-1. Descargar la versión más reciente del intérprete de Python desde el siguiente [Enlace](https://www.python.org/downloads/ "Python Downloads").
+## Instalar Python3 ##
+1. Descargar la versión más reciente del intérprete de Python desde el siguiente [Enlace](https://www.python.org/ "Python Downloads").
 
 2. Instalar agregando al PATH en el proceso de instalación.
 
