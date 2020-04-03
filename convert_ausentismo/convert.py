@@ -62,11 +62,11 @@ for empleado, v in empleados.items():
 				intervalo[1].strftime('%Y%m%d')
 				))
 
-with open(f"{settings.FILE_OUT}", "w", newline="") as out:
+with open(f"Done\\{settings.FILE_OUT}", "w", newline="") as out:
     writer = csv.writer(out, delimiter=';')
     writer.writerows(lineas_to_print)
 
 newFileName = f'{settings.FILE_TO_PROCESS.rstrip(".csv")}_{datetime.datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-os.rename(f'Pending\\{settings.FILE_TO_PROCESS}', f'Done\\{newFileName}')
+os.rename(f'Pending\\{settings.FILE_TO_PROCESS}', f'Pending\\Back\\{newFileName}')
 
 
